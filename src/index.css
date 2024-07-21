@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.bg-img {
+  background-size: 115% 95%;
+}
+.ship {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+hr {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.copy {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input::placeholder {
+  font-size: 12px;
+  font-weight: bold;
+}
